@@ -1,0 +1,23 @@
+class A
+{
+	int x=10;
+	static int y=20;
+	static class B
+	{
+		void show()
+		{
+			//System.out.println(x);error
+			System.out.println(y);
+		}
+	}
+}
+public class Q4
+{
+
+	public static void main(String[] args)
+	{
+		System.out.println(A.y);
+
+	}
+
+}
